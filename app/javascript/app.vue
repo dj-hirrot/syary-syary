@@ -1,16 +1,15 @@
 <template>
-  <div id="app">
-    <p>{{ message }}</p>
+  <div>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
 export default {
-  data: function () {
-    return {
-      message: "Hello Vue!"
-    }
-  }
+  router
 }
 </script>
 
