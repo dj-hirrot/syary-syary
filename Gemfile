@@ -18,7 +18,6 @@ gem 'bootstrap', '~>4.3.1'
 gem 'jquery-rails'
 
 # Authentication
-gem 'devise'
 
 group :development, :test do
   gem 'pry-rails'
